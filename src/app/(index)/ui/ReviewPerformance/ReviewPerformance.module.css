@@ -1,0 +1,61 @@
+.funds {
+  padding: var(--space--xxxl) 0;
+}
+
+.charts {
+  position: relative;
+  padding-bottom: 86%;
+}
+
+.charts:global(.triggered) {
+  .donutChart {
+    opacity: 1;
+    transition: opacity var(---ui-transition-func),
+      transform var(---ui-transition-func);
+    transition-duration: 0.6s, 0.6s;
+
+    &:nth-child(1) {
+      transition-delay: 0.1s;
+    }
+
+    &:nth-child(2) {
+      transition-delay: 0.8s;
+    }
+
+    &:nth-child(3) {
+      transition-delay: 1.2s;
+    }
+  }
+}
+
+.donutChart {
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  transform: translate(0, 0) scale(1);
+
+  &:nth-child(2) {
+    transform: translate(100%, 50%) scale(0.85);
+  }
+
+  &:nth-child(3) {
+    transform: translate(25%, 100%) scale(0.75);
+  }
+}
+
+@media (max-width: 1024px) {
+  .charts {
+    height: 600px;
+    padding-bottom: initial;
+  }
+
+  .donutChart {
+    &:nth-child(2) {
+      transform: translate(25%, 85%) scale(0.75);
+    }
+
+    &:nth-child(3) {
+      transform: translate(0%, 150%) scale(0.6);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.trust {
+  margin: var(--space-super--xxxl) 0 var(--space-super--4xl);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: var(--ui-grid-col-3);
+  gap: 32px;
+}
+
+.point {
+}
+
+.pointName {
+  margin-bottom: 8px;
+}
+
+.logo {
+  width: 190px;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  margin-top: var(--space--xxxl);
+}
+
+@media (max-width: 1024px) {
+  .logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .list {
+    gap: 16px;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 36px;
+    margin-top: var(--space--m);
+  }
+}

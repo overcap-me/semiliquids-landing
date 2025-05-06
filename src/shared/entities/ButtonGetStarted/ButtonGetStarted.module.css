@@ -1,0 +1,67 @@
+.button {
+  position: relative;
+  border-radius: var(--ui-border-radius);
+  padding: 16px 32px 16px 20px;
+
+  background-color: var(--color-white);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: var(--ui-size-icon);
+  height: var(--ui-size-icon);
+  margin-right: 8px;
+  transition: transform 0.4s ease;
+}
+
+.text {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+  .button {
+    padding: 6px 16px 6px 8px;
+  }
+}
+
+.button h6,
+.button span {
+  display: block;
+  position: relative;
+}
+
+.button > h6 {
+  overflow: hidden;
+}
+
+.button > h6 > span {
+  overflow: hidden;
+}
+
+@keyframes MoveUpInitial {
+  to {
+    transform: translate3d(105%, 0, 0);
+  }
+}
+
+@keyframes MoveUpEnd {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.button:hover {
+  .icon {
+    transform: translateX(4px) scaleY(0.9);
+  }
+
+  & > h6 > span {
+    animation: MoveUpInitial 0.4s forwards, MoveUpEnd 0.4s forwards 0.4s;
+  }
+}

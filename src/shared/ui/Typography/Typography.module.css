@@ -1,0 +1,155 @@
+.heading_1 {
+  font-family: var(--font-frank-ruhl-libre);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  line-height: 1.135em;
+  letter-spacing: -0.015em;
+
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.heading_2 {
+  font-family: var(--font-frank-ruhl-libre);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  line-height: 1.15em;
+  letter-spacing: -0.01em;
+}
+
+.heading_3 {
+  font-family: var(--font-frank-ruhl-libre);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  line-height: 1.16em;
+  letter-spacing: -0.01em;
+}
+
+.heading_4 {
+  font-family: var(--font-frank-ruhl-libre);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  line-height: 1.11em;
+  letter-spacing: 0.01em;
+}
+
+.heading_5 {
+}
+
+.heading_6 {
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  line-height: 1.35em;
+  letter-spacing: -0.01em;
+}
+
+.paragraph {
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-default);
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.paragraph_xs {
+  font-size: var(--font-size-xs);
+  line-height: 1.285em;
+}
+
+.size_hero {
+  font-size: var(--font-size-hero);
+  line-height: 1.15em;
+}
+
+.size_xxl {
+  font-size: var(--font-size-xxl);
+  line-height: 1.135em;
+}
+.size_xl {
+  font-size: var(--font-size-xl);
+  line-height: 1.15em;
+}
+.size_l {
+  font-size: var(--font-size-l);
+  line-height: 1.16em;
+}
+.size_m {
+  font-size: var(--font-size-m);
+}
+.size_s {
+  font-size: var(--font-size-s);
+}
+.size_xs {
+  font-size: var(--font-size-xs);
+}
+.size_xxs {
+  font-size: var(--font-size-xxs);
+}
+
+.fontWeight_400 {
+  font-weight: 400;
+}
+.fontWeight_500 {
+  font-weight: 500;
+}
+
+.fontWeight_600 {
+  font-weight: 600;
+}
+
+.fontWeight_700 {
+  font-weight: 700;
+}
+
+.fontWeight_800 {
+  font-weight: 800;
+}
+
+.fontFamily_manrope {
+  font-family: var(--font-manrope);
+}
+
+.fontFamily_frank_ruhl_libre {
+  font-family: var(--font-frank-ruhl-libre);
+}
+
+.color_primary {
+  color: var(--color-primary);
+}
+
+.color_primary_70 {
+  color: var(--color-primary-70);
+}
+
+.color_primary_50 {
+  color: var(--color-primary-50);
+}
+
+.color_white {
+  color: var(--color-white);
+}
+
+.color_white_80 {
+  color: var(--color-white-80);
+}
+
+.color_accent {
+  color: var(--color-accent);
+}
+
+.span {
+}
+
+:where(
+    .heading_1,
+    .heading_2,
+    .heading_3,
+    .heading_4,
+    .heading_5,
+    .heading_6,
+    .paragraph
+  ):global(.scroll-block) {
+  /* opacity: 1; */
+}

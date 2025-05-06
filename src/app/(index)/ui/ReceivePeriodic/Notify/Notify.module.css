@@ -1,0 +1,82 @@
+.notify {
+  padding: 20px 30px;
+  background-color: var(--color-white);
+  border-radius: calc(var(--ui-border-radius) * 2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notifyIcon {
+  background-color: var(--bg-primary);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notifyIcon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.notifyBody {
+  width: calc(100% - 60px - 80px);
+}
+
+.notifyHeader {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2px;
+}
+
+.notifyName {
+  margin-right: 8px;
+}
+
+.notifyText {
+  width: 80%;
+}
+
+.notifyButton {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-accent-8);
+  padding: 4px 6px;
+  text-transform: uppercase;
+}
+
+.notifyButton svg {
+  width: var(--ui-size-icon);
+  height: var(--ui-size-icon);
+  margin-right: 4px;
+}
+
+@media (max-width: 640px) {
+  .notify {
+    padding: 10px 16px;
+  }
+
+  .notifyName {
+    font-size: 10px;
+  }
+
+  .notifyTime {
+    font-size: 6px;
+  }
+
+  .notifyText {
+    font-size: 10px;
+  }
+
+  .notifyButton h6 {
+    font-size: 8px;
+  }
+
+  .notifyButton svg {
+    width: calc(var(--ui-size-icon) / 2);
+    height: calc(var(--ui-size-icon) / 2);
+  }
+}

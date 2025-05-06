@@ -1,0 +1,20 @@
+.scroll-block {
+  opacity: 0;
+  transition: opacity 0.4s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.scroll-line {
+  overflow: hidden;
+}
+
+.scroll-word {
+  transform: translate3d(0, 100%, 0);
+}
+
+.scroll-block.triggered {
+  opacity: 1;
+}
+
+.scroll-block.triggered .scroll-word {
+  transform: translate3d(0, 0, 0);
+}

@@ -1,0 +1,1 @@
+export { CompareFunds } from "./CompareFunds"

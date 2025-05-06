@@ -1,0 +1,9 @@
+.innerWith2Columns {
+  display: grid;
+  grid-template-columns: var(--ui-grid-col-2);
+  gap: 48px;
+}
+
+.aic {
+  align-items: center;
+}

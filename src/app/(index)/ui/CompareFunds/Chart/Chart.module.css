@@ -1,0 +1,58 @@
+.chart {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  border-radius: calc(var(--ui-border-radius) * 2);
+}
+
+.chart svg {
+  width: 100%;
+  height: 100%;
+}
+
+.chartBody {
+  padding: 50px 40px;
+}
+
+.chartSwitcher {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 24px;
+}
+
+.chartSwitch {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.chartSwitchIcon {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+@media (max-width: 640px) {
+  .chart svg {
+    width: 100%;
+    height: 100%;
+  }
+  .chartBody {
+    padding: 25px 20px;
+  }
+
+  .chartSwitcher {
+    gap: 12px;
+  }
+
+  .chartSwitch h4 {
+    font-size: 10px;
+  }
+
+  .chartSwitchIcon {
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+  }
+}

@@ -1,0 +1,28 @@
+.slider {
+  position: relative;
+  /* width: 600px; */
+  max-width: 600px;
+  /* height: 320px; */
+}
+
+/* .slide {
+  position: absolute;
+  top: 0;
+}
+
+.slide.active {
+  position: relative;
+  z-index: 2;
+}
+
+.slide:not(.active):nth-child(2) {
+  transform: translateY(24px) scale(0.9);
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.slide:not(.active):nth-child(3) {
+  transform: translateY(48px) scale(0.85);
+  opacity: 0.8;
+  z-index: 0;
+} */
