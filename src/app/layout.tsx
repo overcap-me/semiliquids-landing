@@ -1,4 +1,5 @@
 "use client";
+
 import clsx from "clsx";
 
 import "@/common/styles/index.css";
@@ -20,6 +21,9 @@ export default function RootLayout({
 
 	return (
 		<html lang="en">
+			<head>
+				<link rel="icon" href="/favicon.png" />
+			</head>
 			<body className={clsx(FrankRuhlLibre.variable, Manrope.variable)}>
 				<Header />
 				<main>{children}</main>

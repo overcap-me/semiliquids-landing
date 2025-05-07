@@ -1,3 +1,5 @@
+"use client";
+
 import { Wrapper } from "@/shared/ui/Wrapper";
 import styles from "./Footer.module.css";
 import Link from "next/link";
