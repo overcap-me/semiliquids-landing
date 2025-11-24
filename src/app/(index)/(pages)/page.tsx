@@ -49,7 +49,7 @@ const ListWithBenefits = () => {
         <Noticy className={styles.benefitIcon} />
         <Block className={styles.benefitDesc}>
           <Typography className={styles.benefitName} as="h3">Enhanced Liquidity with Open-Ended Structures</Typography>
-          <Typography>Ability to access your capital at regular intervals while benefiting from private equity return.</Typography>
+          <Typography>Access your capital at regular intervals while benefiting from private equity returns.</Typography>
         </Block>
       </Block>
 

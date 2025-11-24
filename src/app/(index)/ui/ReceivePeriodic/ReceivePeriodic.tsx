@@ -20,7 +20,7 @@ export const ReceivePeriodic = () => {
               Receive Periodic Updates
             </Typography>
             <Typography color="primary70">
-              Get regular updates delivered straight to you. Receive selected funds newsletters with essential insights, performance updates, and market trends, helping you stay informed.
+              Get regular updates delivered straight to you. Receive newsletters on selected funds with essential insights, performance updates, and market trends, helping you stay informed.
             </Typography>
           </Block>
 
