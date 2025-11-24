@@ -15,7 +15,7 @@ const list = [
   { id: 1, fund: { name: "Schorders Capital Semi-Liquid Global Private Equity" }, amount: "£2B", date: "Jan 2025", classDetail: "C-Accumul", },
   { id: 2, fund: { name: "KKR Private Markets Equity Fund SICAV SA-I" }, amount: "$3B", date: "Jan 2025", classDetail: "Class R", },
   { id: 3, fund: { name: "BlackRock Private Investments Fund" }, amount: "$255M", date: "Jan 2025", classDetail: "Class I", },
-  { id: 4, fund: { name: "Carlyle AlphInvest Private Markets Fund" }, amount: "$80M", date: "Jan 2025", classDetail: "Class I", },
+  { id: 4, fund: { name: "Carlyle AlpInvest Private Markets Fund" }, amount: "$80M", date: "Jan 2025", classDetail: "Class I", },
   { id: 5, fund: { name: "AMG Pantheon Fund" }, amount: "$3,5B", date: "Dec 2024", classDetail: "Class I", },
   { id: 6, fund: { name: "Global Private Asstets Fund" }, amount: "$5M", date: "Dec 2024", classDetail: "Class I", },
 ]
